@@ -1,2 +1,3 @@
 # whiley-stuff
-Random Whiley examples.
+Website for the Whiley programming language:
+http://whiley.org/
