@@ -1,0 +1,26 @@
+
+syntax "whiley" "\.whiley$"
+
+
+
+# Functions, methods.
+color cyan "\<(from|import|is|private|prot0ected|public)\>"
+color brightcyan "\<(function|method|package|type)\>"
+color brightCyan "(->)"
+
+# Static checking.
+color brightmagenta "\<(assert|assume|ensures|requires|where)\>"
+color magenta "\<all|some\>"
+
+# Control flow.
+color green "\<(catch|else|if|switch|try|while)\>"
+color blue "\<(break|case|continue|return)\>"
+
+# Types.
+color yellow "\<(bool|byte|char|int|real|string)\>"
+color brightyellow "\<(false|null|true)\>"
+color brightyellow "<[^=        ]*>" ""(\\.|[^"])*""
+
+color brightblue "//.*"
+color brightblue start="/\*" end="\*/"
+
