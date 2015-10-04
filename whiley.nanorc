@@ -4,7 +4,7 @@ syntax "whiley" "\.whiley$"
 
 
 # Functions, methods.
-color cyan "\<(from|import|is|private|prot0ected|public)\>"
+color cyan "\<(from|import|is|private|protected|public)\>"
 color brightcyan "\<(function|method|package|type)\>"
 color brightCyan "(->)"
 
